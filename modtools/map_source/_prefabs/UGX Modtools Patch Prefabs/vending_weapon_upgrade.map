@@ -1,0 +1,81 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"spawnflags" "11"
+"_color" "0.5 0.5 .62 1"
+"ambient" ".5"
+"sundiffusecolor" "0.75 0.82 0.85"
+"diffusefraction" ".5"
+"classname" "worldspawn"
+"sundirection" "-130  40 0"
+"suncolor" "0.9 0.95 1"
+"sunlight" "1.5"
+// brush 0
+{
+ ( -2.5 34 0 ) ( -34.5 34 0 ) ( -34.5 -38 0 ) clip 64 64 -2.5 5 0 0 lightmap_gray 16384 16384 -2.5 5 0 0
+ ( -34.5 -35 87 ) ( -34.5 37 87 ) ( -2.5 37 87 ) clip 64 64 -2.5 5 0 0 lightmap_gray 16384 16384 -2.5 5 0 0
+ ( -23.5 -41 79.5 ) ( 8.5 -41 79.5 ) ( 8.5 -41 7.5 ) clip 64 64 -2.5 -7.5 0 0 lightmap_gray 16384 16384 -2.5 -7.5 0 0
+ ( 24.5 -46 79.5 ) ( 24.5 26 79.5 ) ( 24.5 26 7.5 ) clip 64 64 -5 -7.5 0 0 lightmap_gray 16384 16384 -5 -7.5 0 0
+ ( -2.5 40 79.5 ) ( -34.5 40 79.5 ) ( -34.5 40 7.5 ) clip 64 64 -2.5 -7.5 0 0 lightmap_gray 16384 16384 -2.5 -7.5 0 0
+ ( -35.5 35 79.5 ) ( -35.5 -37 79.5 ) ( -35.5 -37 7.5 ) clip 64 64 -5 -7.5 0 0 lightmap_gray 16384 16384 -5 -7.5 0 0
+}
+}
+// entity 1
+{
+"target" "vending_pack_a_punch"
+"targetname" "zombie_vending_upgrade"
+"script_noteworthy" "specialty_weapupgrade"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 27 -5.5 3.5 ) ( 27 23 3.5 ) ( -16.5 23 3.5 ) trigger 64 64 -3 -0.5 -90 0 lightmap_gray 16384 16384 -3 -0.5 -90 0
+ ( -16.5 23.5 73.5 ) ( 27 23.5 73.5 ) ( 27 -5 73.5 ) trigger 64 64 -3 -0.5 -90 0 lightmap_gray 16384.029 16384 -3 -0.5 -90 0
+ ( -42 22.5 106.5 ) ( -42 -6 106.5 ) ( -42 -6 3.5 ) trigger 64 -64 -3 13 180 0 lightmap_gray 16384.047 -16384 -3 13 -180 0
+ ( -8.5 -46.5 106.5 ) ( 35 -46.5 106.5 ) ( 35 -46.5 3.5 ) trigger 64 64 0.5 -13 0 0 lightmap_gray 16384 16384 0.5 -13 0 0
+ ( 13.5 -5.5 106.5 ) ( 13.5 23 106.5 ) ( 13.5 23 3.5 ) trigger 64 -64 -3 13 180 0 lightmap_gray 16384 -16384 -3 13 180 0
+ ( 27 47 106.5 ) ( -16.5 47 106.5 ) ( -16.5 47 3.5 ) trigger 64 64 0.5 -13 0 0 lightmap_gray 16384 16384 0.5 -13 0 0
+}
+}
+// entity 2
+{
+"script_sound" "perks_rattle"
+"targetname" "audio_bump_trigger"
+"script_activated" "1"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 25 18.5 7 ) ( 25 26.5 7 ) ( 17 26.5 7 ) trigger 64 64 8.4983635 17 -90 0 lightmap_gray 16384.084 16384 8.5 17 -90 0
+ ( 17 27.5 67 ) ( 25 27.5 67 ) ( 25 19.5 67 ) trigger 64 64 8.5 17 -90 0 lightmap_gray 16383.922 16384 8.5 17 -90 0
+ ( -29 -24.5 106 ) ( -29 -32.5 106 ) ( -29 -32.5 -22 ) trigger 64 -64 8.5 663.00244 180 0 lightmap_gray 16384.037 -16384 8.5 663.00244 180 0
+ ( -12 -29.5 106 ) ( -4 -29.5 106 ) ( -4 -29.5 -22 ) trigger 64 64 -17 -663 0 0 lightmap_gray 16384 16384 -17 -663 0 0
+ ( 13 19.5 106 ) ( 13 27.5 106 ) ( 13 27.5 -22 ) trigger 64 -64 8.5 663 180 0 lightmap_gray 16384.205 -16384 8.5 663 180 0
+ ( 27 31.5 106 ) ( 19 31.5 106 ) ( 19 31.5 -22 ) trigger 64 64 -17.00396 -663 0 0 lightmap_gray 16383.953 16384 -17 -663 0 0
+}
+}
+// entity 3
+{
+"target" "auto1"
+"angles" "0 270 0"
+"classname" "script_model"
+"model" "zombie_vending_packapunch"
+"origin" "0.0 0.0 0.0"
+"targetname" "vending_pack_a_punch"
+}
+// entity 4
+{
+"angles" "0 270 0"
+"origin" "-12.0 3.5 53.0"
+"script_sound" "mx_packa_jingle"
+"targetname" "perksacola"
+"classname" "script_struct"
+}
+// entity 5
+{
+"targetname" "auto1"
+"origin" "13.5 -29.0 49.5"
+"angles" "0 90 180"
+"model" "zombie_sign_please_wait"
+"classname" "script_model"
+}

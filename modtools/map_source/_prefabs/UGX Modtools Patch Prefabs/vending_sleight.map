@@ -1,0 +1,66 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 14 19.5 -1 ) ( -16 19.5 -1 ) ( -16 -13.5 -1 ) clip_player 64 64 4 0 0 0 lightmap_gray 16384 16384 4 0 0 0
+ ( -16 -14 105.5 ) ( -16 19 105.5 ) ( 14 19 105.5 ) clip_player 64 64 4 0 0 0 lightmap_gray 16384 16384 4 0 0 0
+ ( -16 -18 99 ) ( 14 -18 99 ) ( 14 -18 -4 ) clip_player 64 64 4 -5.5 0 0 lightmap_gray 16384 16384 4 -5.5 0 0
+ ( 26.5 -14 99 ) ( 26.5 19 99 ) ( 26.5 19 -4 ) clip_player 64 64 0 -5.5 0 0 lightmap_gray 16384 16384 0 -5.5 0 0
+ ( 14 15 98 ) ( -16 15 98 ) ( -16 15 -5 ) clip_player 64 64 4 -5.5 0 0 lightmap_gray 16384 16384 4 -5.5 0 0
+ ( -25.5 19 99 ) ( -25.5 -14 99 ) ( -25.5 -14 -4 ) clip_player 64 64 0 -5.5 0 0 lightmap_gray 16384 16384 0 -5.5 0 0
+}
+}
+// entity 1
+{
+"script_string" "speedcola_perk"
+"target" "vending_sleight"
+"targetname" "zombie_vending"
+"script_noteworthy" "specialty_fastreload"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 13 27 -0.5 ) ( -15.5 27 -0.5 ) ( -15.5 -16.5 -0.5 ) trigger 64 64 5 -0.5 0 0 lightmap_gray 16384 16384 5 -0.5 0 0
+ ( -15 -16.5 98.5 ) ( -15 27 98.5 ) ( 13.5 27 98.5 ) trigger 64 64 5 -0.5 0 0 lightmap_gray 16384 16384 5 -0.5 0 0
+ ( -14.5 -18 98.5 ) ( 14 -18 98.5 ) ( 14 -18 -4.5 ) trigger 64 64 5 -5 0 0 lightmap_gray 16384 16384 5 -5 0 0
+ ( 14.5 -16.5 98.5 ) ( 14.5 27 98.5 ) ( 14.5 27 -4.5 ) trigger 64 64 0.5 -5 0 0 lightmap_gray 16384 16384 0.5 -5 0 0
+ ( 13.5 13.5 98.5 ) ( -15 13.5 98.5 ) ( -15 13.5 -4.5 ) trigger 64 64 5 -5 0 0 lightmap_gray 16384 16384 5 -5 0 0
+ ( -15 27 98.5 ) ( -15 -16.5 98.5 ) ( -15 -16.5 -4.5 ) trigger 64 64 0.5 -5 0 0 lightmap_gray 16384 16384 0.5 -5 0 0
+}
+}
+// entity 2
+{
+"script_string" "speedcola_perk"
+"script_sound" "perks_rattle"
+"targetname" "audio_bump_trigger"
+"script_activated" "1"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( -18.5 25 -1 ) ( -26.5 25 -1 ) ( -26.5 17 -1 ) trigger 64 64 8.5 17 0 0 lightmap_gray 16384 16384 8.5 17 0 0
+ ( -29.5 17 86 ) ( -29.5 25 86 ) ( -21.5 25 86 ) trigger 64 64 8.5 17 0 0 lightmap_gray 16383.936 16384 8.5 17 0 0
+ ( 26.5 -25 98 ) ( 34.5 -25 98 ) ( 34.5 -25 -30 ) trigger 64 64 8.5 -655 0 0 lightmap_gray 16384 16384 8.5 -655 0 0
+ ( 30.5 -12 98 ) ( 30.5 -4 98 ) ( 30.5 -4 -30 ) trigger 64 64 -17 -655 0 0 lightmap_gray 16384 16383.99 -17 -655 0 0
+ ( -19.5 13 98 ) ( -27.5 13 98 ) ( -27.5 13 -30 ) trigger 64 64 8.5 -655 0 0 lightmap_gray 16384 16384 8.5 -655 0 0
+ ( -29.5 27 98 ) ( -29.5 19 98 ) ( -29.5 19 -30 ) trigger 64 64 -17 -655 0 0 lightmap_gray 16384 16384 -17 -655 0 0
+}
+}
+// entity 3
+{
+"classname" "script_model"
+"model" "zombie_vending_sleight"
+"origin" "0.0 0.0 0.0"
+"targetname" "vending_sleight"
+"script_string" "speedcola_perk"
+}
+// entity 4
+{
+"classname" "script_struct"
+"targetname" "perksacola"
+"origin" "-1.5 -7.0 93.0"
+"script_sound" "mx_speed_jingle"
+"script_string" "speedcola_perk"
+}
