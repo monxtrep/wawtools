@@ -1,0 +1,41 @@
+AVIA CREATIONS
+"WRAITH" END USER LICENSE AGREEMENT
+
+IT IS YOUR RESPONSIBILITY TO READ THIS AGREEMENT CAREFULLY.
+
+This EULA governs your use of the Wraith software. This EULA may be updated, revised, or otherwise modified at any time, and new versions will be included with automatic updates of Wraith. Your use of the Wraith software constitutes your acceptance of these terms.
+
+You acknowledge and agree that this software is licensed, not sold, to you and at all times remains property of Avia Creations. By installing, copying, or using this software, you agree to the terms of this agreement.
+--------------------
+1. License
+Avia Creations hereby grants you the non-exclusive, non-transferable, limited license to use this software for your personal, non-commercial use in creating user-created content for the Call of Duty: Black Ops 3 Steam Workshop, Call of Duty 4: Modern Warfare, Call of Duty: World at War, and Call of Duty: Black Ops, and to distribute the direct download link provided by Avia Creations (http://aviacreations.com/wraith).
+
+1A. Credit
+You must provide credit to Wraith / (DTZxPorter) for work derived from the use of Wraith.
+
+2. Ownership
+Avia Creations retains all rights to the software. Any persons found to be copying, reproducing or distributing all or any portion of the software will be permanently banned from using all previous and future software provided by Avia Creations.
+
+3. Conditions
+By installing or otherwise using this software, you agree NOT to:
+a. Commercially exploit the software;
+b. Distribute, license, sell, lease, rent or otherwise transfer or assign the software, without the explicit written consent of Avia Creations, except for archival purposes;
+c. Directly or indirectly, in any form, copy, reproduce, prepare derivative works of, modify, decompile, reverse engineer, decompile, disassemble or otherwise attempt to derive source code from the software;
+d. Remove any proprietary notices incorporated in or with the software;
+e. Rehost or redistribute this software anywhere that is not on the Avia Creations website;
+f. Upload assets extracted by Wraith to anywhere.
+
+4. Protection
+This software may include measures to control access to the software, control access to certain features or content, or prevent unauthorized copies of the software. You may not interfere with these measures or otherwise attempt to disable or circumvent these features. 
+
+5. Privacy
+This software may collect data such as the IP adress of a user, hardware information, and other such data. This data is used internally by Avia Creations for analysis and review, and when stored is obfuscated so the user's privacy is maintained. All information is intended to be anonymous information that does not disclose your identity or otherwise personal information. Avia Creations will exercise reasonable effort to avoid disclosure of any such information to third parties. Avia Creations does not guarantee that such information will not be disclosed to third parties.
+
+6. Warranty & Liability
+This software is provided "as-is" and without warranty of any kind. IN NO EVENT WILL AVIA CREATIONS BE LIABLE FOR ANY DAMAGES RESULTING FROM POSSESSION OR MALFUNCTION OF THE SOFTWARE OR UPDATES TO THE SOFTWARE, INCLUDING BUT NOT LIMITED TO, DAMAGES TO PROPERTY, COMPUTER FAILURE OR MALFUNCTION, LOSS OF GOODWILL. 
+
+7. Termination
+Failure to adhere to the terms in this agreement while using the software will terminate this agreement. The agreement can also be terminated by you, or by Avia Creations. Upon any termination, you must destroy any copies of the software, and updates to the software, in your possession. Failure to adhere to this agreement will also result in the user being permanently banned from using all previous and future software provided by Avia Creations, including the website.
+--------------------
+
+Wraith | Copyright 2018 Avia Creations. All rights reserved.
